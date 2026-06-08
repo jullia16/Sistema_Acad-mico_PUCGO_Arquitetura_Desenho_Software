@@ -1,0 +1,7 @@
+venv/ # não enviar a pasta do ambiente virtual
+__pycache__/ #não enviar arquivos temporários do Python
+*.pyc # não enviar arquivos compilados do Python
+db.sqlite3 #não enviar o banco de dados SQLite
+.env # não enviar o arquivo de variáveis de ambiente
+.idea/ # não enviar a pasta de configuração do IntelliJ IDEA
+.vscode/ # não enviar a pasta de configuração do Visual Studio Code
